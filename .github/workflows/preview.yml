@@ -1,0 +1,39 @@
+# Publishes the built site to GitHub Pages as the partners' preview (https://ckuzman.github.io).
+# It only runs in the preview copy of the repo (ckuzman/ckuzman.github.io), never in the live one,
+# so nothing here can touch thrillwave.com. The live site still deploys from Cloudflare Pages.
+name: Preview site
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: preview-site
+  cancel-in-progress: true
+jobs:
+  preview:
+    if: github.repository == 'ckuzman/ckuzman.github.io'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      # Keep the preview out of search engines. GitHub Pages ignores _headers and _redirects,
+      # so this is a plain robots.txt instead of the X-Robots-Tag header Cloudflare previews get.
+      - run: |
+          printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v4
