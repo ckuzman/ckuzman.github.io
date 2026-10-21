@@ -1,108 +1,138 @@
-<!-- meta {"title": "Phoenix Video Production Company", "navTitle": "Home", "fullTitle": "Thrill Wave | Phoenix Video Production Company", "description": "Thrill Wave is a video production company based in Phoenix, AZ. We listen closely, learn what matters and make films you feel.", "bodyClass": "page-home page-sections page-typed"} -->
-<section class="hero hero--home has-side-video">
-  {{side_video}}
+<!-- meta {"title": "Films about hard subjects and hard places", "navTitle": "Home", "fullTitle": "Thrill Wave | Films about hard subjects and hard places", "description": "We make films about hard subjects and hard places for organizations that can't afford to get it wrong.", "bodyClass": "page-home page-declare"} -->
+<!--
+  Homepage from the Oct 21, 2026 copy brief (docs/handoffs/2026-10-21-homepage-copy-brief.md).
+  Nine blocks in a fixed order; the copy is verbatim from the brief's quote boxes. Don't tighten or
+  "improve" a line here: the rationale (docs/handoffs/2026-10-21-homepage-rationale.md) says why each
+  word was chosen. Blocks without their asset are left out, never placeholdered: the reel (block 1,
+  due Oct 30), client quotes (block 7, hidden until two are in hand) and the behind-the-scenes strip.
+-->
+
+<!-- 1. Hero: plain headline, the eight-second line as the subhead. No logos, no buttons. -->
+<section class="hero hero--declare">
   <div class="container hero__content">
-    <h1 class="hero__stack" data-type-beat="2"><span>Hi, welcome to Thrill Wave.</span> <span>We make films you feel.</span></h1>
-    <!-- Red pill / blue pill (Matrix easter egg). The red pill opens the terminal site at terminal.thrillwave.com
-         (Cloudflare Pages project from repo arieverett/thrillwave-website-terminal; kept out of search on purpose). -->
-    <div class="btn-row pill-row">
-      <span class="pill-slot">
-        <a class="btn btn--plain btn--pill btn--blue" href="#who-we-are" data-pill-choice="blue"><span class="pill__label" data-text="Keep scrolling">Keep scrolling</span><span class="pill__shine" aria-hidden="true"><span></span></span></a>
-        <span class="pill-trail" aria-hidden="true"></span>
-      </span>
-      <a class="btn btn--plain btn--pill pill pill--red" href="https://terminal.thrillwave.com/" data-pill-choice="red"><span class="pill__liquid" aria-hidden="true"></span><span class="pill__label" data-text="Take the red pill">Take the red pill</span><span class="pill__shine" aria-hidden="true"><span></span></span></a>
-    </div>
+    <h1>We shoot the difficult ones.</h1>
+    <p class="declare__sub">Films about hard subjects and hard places, for organizations that can’t afford to get it wrong. Based in Phoenix. We work anywhere.</p>
   </div>
 </section>
 
-<section class="section section--dark section--after-reel has-side-video" id="who-we-are">
-  <div class="container split-media">
-    <div class="split-media__text">
-      <p class="kicker">Who we are</p>
-      <h2 class="section__title" data-type-beat="11">For people, by people.</h2>
-      <p>We're a video production company in Phoenix that makes films for people, not audiences. We listen closely, find what's real in a story and make it simple, beautiful and worth feeling. Here's a glimpse of that feeling, and you can scroll on to see our work:</p>
-      {{reel_embed}}
-      <div class="section__actions btn-row">
-        <a class="btn btn--plain btn--pill btn--clear" href="/about">More about us</a>
-      </div>
-    </div>
+<!-- 2. Proof line -->
+<section class="section section--dark" id="proof">
+  <div class="container">
+    <p class="proof">Three partners with more than a decade each on the projects people get nervous about: sovereignty and voting rights, vaccines in communities that distrust them, the pieces that usually die in the PR meeting, and the places most crews won’t take a camera. One series alone ran thirty-five interviews, tribal chairmen to the Governor, and finished in a museum.</p>
   </div>
 </section>
 
+<!-- 3. Two kinds of hard: the lead line on its own, then the two pillars side by side (stacked on phones) -->
+<section class="section section--dark" id="two-kinds-of-hard">
+  <div class="container">
+    <p class="lead-line">One of these is enough. Most of our projects are one or the other. Some are both.</p>
+    <ul class="brief-grid">
+      <li>
+        <h2>Hard to say out loud.</h2>
+        <p>Controversial, morally complicated, emotionally heavy, or a bigger swing than the brand has taken before. The project everyone wants and legal is nervous about. We make it, and we make it hold up, because we’ve done the homework before we pitch it.</p>
+      </li>
+      <li>
+        <h2>Hard to get to.</h2>
+        <p>Remote, uncontrolled, high-risk, or simply unwelcoming. Built to work without a base camp. Hundreds of drone flights in places most pilots won’t take: live industrial sites, tight quarters, festival grounds, third world countries, you name it.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- 4. What we do: three services plus the long-form stance. Rentals and photography live inside Production. -->
 <section class="section section--dark" id="what-we-do">
   <div class="container">
-    <p class="kicker">What we do</p>
-    <h2 class="section__title">We make complicated stories simple.</h2>
-    <p>The stories worth telling are rarely simple. We find the one thing that matters and say it clearly and beautifully, from the research to the final cut. Here's how we can help:</p>
-    <h3 class="subhead">Core capabilities</h3>
-    {{services_story}}
-    <div class="section__actions btn-row">
-      <a class="btn btn--plain btn--pill btn--clear" href="/services" data-until-built="#what-we-do">See our services</a>
+    <h2 class="section__title">What we do</h2>
+    <ul class="brief-grid brief-grid--four">
+      <li>
+        <h3>Story.</h3>
+        <p>We figure out what to film before anyone touches a camera. That starts with homework: the subject, the people, the place, and everything that has already been said about it. By the time we show up, we know where the landmines are. If the easy version won’t do the job, we’ll say so before you spend money on it.</p>
+      </li>
+      <li>
+        <h3>Production.</h3>
+        <p>Interviews, field shoots, multi-camera events, drones, cable cam. Remote locations and crowds are normal days for us. Teams with their own editors can book the day and take the raws.</p>
+      </li>
+      <li>
+        <h3>Editing.</h3>
+        <p>Long and short form. We cut for the person who has to sit through it, not for ourselves.</p>
+      </li>
+      <li>
+        <h3>Long form, on purpose.</h3>
+        <p>A film someone watches for twenty minutes does more for your credibility than one they scroll past in two seconds. We make the long version first and cut the short ones from it.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- 5. Selected work: stills with captions, the only place on the page that names clients or projects.
+     Four for now; Tony's and Chris's stills (due Oct 23 and 27) bring it to five to seven. -->
+<section class="section section--dark" id="selected-work">
+  <div class="container">
+    <h2 class="section__title">Selected work</h2>
+    <ul class="stills">
+      <li>
+        <figure>
+          <img src="/images/portfolio/itca-native-vote-council-chamber.webp" alt="Your Voice, Your Power. Inter Tribal Council of Arizona. Ten episodes on Native voting rights and sovereignty, shot across Arizona and a week in D.C. Thirty-five interviews, tribal chairmen to the Governor. Screened at the Heard Museum and at film festivals across the Southwest." loading="lazy">
+          <figcaption><strong>Your Voice, Your Power.</strong> Inter Tribal Council of Arizona. Ten episodes on Native voting rights and sovereignty, shot across Arizona and a week in D.C. Thirty-five interviews, tribal chairmen to the Governor. Screened at the Heard Museum and at film festivals across the Southwest.</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="https://i.ytimg.com/vi/zs1_1xC4My8/maxres3.jpg" alt="Vaccine PSAs. ITCA Tribal Epidemiology Center. Single-take spots for people with good reasons to be skeptical." loading="lazy">
+          <figcaption><strong>Vaccine PSAs.</strong> ITCA Tribal Epidemiology Center. Single-take spots for people with good reasons to be skeptical.</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="/images/portfolio/mci-ireland-fiddlers-film.webp" alt="On tour in Europe. Music Celebrations International. Documentary work shot on the road, no second takes. Multiple years in a row." loading="lazy">
+          <figcaption><strong>On tour in Europe.</strong> Music Celebrations International. Documentary work shot on the road, no second takes. Multiple years in a row.</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="/images/services/decadence-confetti-stage.webp" alt="Relentless Beats. A festival after-movie made from cameras in the crowd, FPV drones over it, and the crew building the stage before the gates opened. Extreme chaos for 2 days straight. Navigating the complexity of famous artists and their management, site ops, security, law enforcement, and a massive physical operation. We’ve done this for a decade, several times a year." loading="lazy">
+          <figcaption><strong>Relentless Beats.</strong> A festival after-movie made from cameras in the crowd, FPV drones over it, and the crew building the stage before the gates opened. Extreme chaos for 2 days straight. Navigating the complexity of famous artists and their management, site ops, security, law enforcement, and a massive physical operation. We’ve done this for a decade, several times a year.</figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- 6. What we believe: nine lines, boldest first, most agreeable last. Spaced, not bulleted. Not labeled "Manifesto". -->
+<section class="section section--dark" id="what-we-believe">
+  <div class="container">
+    <h2 class="section__title">What we believe</h2>
+    <div class="beliefs">
+      <p><strong>A lazy video is worse than none.</strong> The safe idea costs the same to make, and nobody remembers it.</p>
+      <p><strong>Trying to offend no one is how you convince no one.</strong> Conflict makes it a story. Vulnerability gets you trust.</p>
+      <p><strong>The crew is careful so the film can be bold.</strong> Small enough to get in, quiet enough that people forget the camera, prepared enough that the only risk left is on screen.</p>
+      <p><strong>Brand risk is something we manage, not something we avoid.</strong> If the easy version won’t work, we say so, even when it’s your plan.</p>
+      <p><strong>A film is a demand for someone’s time.</strong> Give the story the time it deserves, and people will give it theirs.</p>
+      <p><strong>Some stories are hard to reach. Some are hard to tell.</strong> We’re built for both, together or apart.</p>
+      <p><strong>When anything can be generated, the real thing is worth more.</strong> We film real people in real places.</p>
+      <p><strong>People are drowning in content.</strong> Most of it is forgettable, a lot of it is fake, and trust is the scarcest thing left.</p>
+      <p><strong>Homework is most of the job.</strong> We know the subject, the people, and the place before the camera comes out, and we plan for the plan to fail. Then we finish: on time, on budget, no surprises.</p>
     </div>
   </div>
 </section>
 
-<section class="section section--dark section--tight section--to-next">
-  <div class="container">
-    <p class="kicker">Our work</p>
-    <h2 class="section__title">Films that stay with you.</h2>
-    <p>These are a few of the stories we're proudest to have told:</p>
-    {{featured_rows}}
+<!-- 7. What clients say: hidden until at least two quotes are in hand (Chris is asking five clients, due Oct 30). -->
+
+<!-- 8. Contact: one sentence, the details line, and a three-field form (no budget dropdown). -->
+<section class="section section--dark section--contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-grid__info">
+      <h2 class="section__title">Tell us what you’re trying to do and where it has to happen.</h2>
+      <p class="contact-line"><a href="mailto:{{site.email}}">{{site.email}}</a> · <a href="tel:{{site.phoneHref}}">{{site.phone}}</a> · Phoenix, Arizona · Since 2018</p>
+    </div>
+    <form class="lead-form lead-form--dark" action="/api/contact" method="post" data-success="Got it, thank you. A real person will write back within one business day.">
+      <input type="hidden" name="source" value="homepage">
+      <label><span>Name</span><input type="text" name="name" autocomplete="name" required></label>
+      <label><span>Email</span><input name="email" type="email" autocomplete="email" required></label>
+      <label><span>Message</span><textarea name="message" rows="5" required></textarea></label>
+      <label class="hp" aria-hidden="true">Leave blank<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label>
+      <button class="btn btn--plain btn--pill btn--red" type="submit">Send</button>
+      <p class="form-status" role="status"></p>
+    </form>
   </div>
 </section>
-
-<section class="section section--dark section--clients section--joined">
-  <div class="container">
-    <h2 class="section__title">Local names to household names.</h2>
-    <p>Some are from down the street and some are known everywhere, and every one got the same care:</p>
-  </div>
-  {{client_marquee}}
-  <div class="container">
-    <div class="section__actions btn-row">
-      <a class="btn btn--plain btn--pill btn--clear" href="/work">See all our work</a>
-    </div>
-  </div>
-</section>
-
-<section class="section section--dark" id="who-we-serve">
-  <div class="container">
-    <p class="kicker">Who we work with</p>
-    <h2 class="section__title">Everyone has their own story.</h2>
-    <p>Our films can be about one person or a large organization, and we take the time to learn their world before we film. Here are some we've worked with before:</p>
-    {{client_links}}
-    <div class="carousel carousel--focus carousel--tiles" data-carousel="focus" data-loop data-open-sides>
-      {{industry_grid}}
-    </div>
-    <div class="section__actions btn-row">
-      <a class="btn btn--plain btn--pill btn--clear" href="/clients">See our clients</a>
-      <a class="btn btn--plain btn--pill btn--clear" href="/fields">See all fields</a>
-    </div>
-  </div>
-</section>
-
-<section class="section section--dark" id="case-studies">
-  <div class="container">
-    <p class="kicker">Case studies</p>
-    <h2 class="section__title">Every film has a job to do.</h2>
-    <p>A good-looking film is only half the job. Each one is made to do something specific, and the case studies show how it went:</p>
-    {{case_studies}}
-    <div class="section__actions btn-row">
-      <a class="btn btn--plain btn--pill btn--clear" href="/case-studies" data-until-built="/work">See case studies</a>
-    </div>
-  </div>
-</section>
-
-<section class="section section--dark" id="process">
-  <div class="container">
-    <p class="kicker">How we work</p>
-    <h2 class="section__title">From first idea to final cut.</h2>
-    <p>Every project runs through the same five steps with the same crew. The third one, SITREP, is our research: before we film, we dig into your craft, your peers and your field. Here's how it goes:</p>
-    {{process_steps}}
-    <div class="section__actions btn-row">
-      <a class="btn btn--plain btn--pill btn--clear" href="/process">See our process</a>
-      <a class="btn btn--plain btn--pill btn--clear" href="/sitrep">About SITREP</a>
-    </div>
-  </div>
-</section>
-
-{{start_project}}
