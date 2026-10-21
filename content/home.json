@@ -10,9 +10,9 @@
     {
       "icon": "camera",
       "name": "Production",
-      "text": "We plan the shoot and run it: casting, locations, directing, camera, light and sound, plus stills on location or in the studio.",
+      "text": "We plan the shoot and run it: locations, directing, camera, light and sound, plus stills on location or in the studio.",
       "more": "This is everything from the first call sheet to the last shot. We find the right people and places, then bring cinema cameras, lighting, sound and aerials, run by a crew with a decade in the field. The same eye shoots your stills, on location or in the studio, and if you already have a crew, our kit and our people can step in wherever you need a hand.",
-      "includes": "Producing, casting, locations, permits, schedules, directing, cinematography, lighting, sound, drone, stills and portraits"
+      "includes": "Producing, locations, directing, cinematography, lighting, sound, drone, stills and portraits"
     },
     {
       "icon": "sliders",
@@ -850,7 +850,7 @@
       "text": "A 10-part docuseries that shows Native voters how every level of government reaches their lives, in time for the 2026 midterms.",
       "still": "Gh67yEMyOCs:3",
       "zoom": true,
-      "focus": "x26",
+      "focus": "x35",
       "link": "/case-studies/your-voice-your-power",
       "seoTitle": "Your Voice, Your Power: A Native Voter Docuseries",
       "lede": "Tribal leaders, legal experts and voters explain how government touches tribal life, one office at a time, so Native voters walk into the 2026 midterms ready.",
@@ -1178,6 +1178,7 @@
     },
     {
       "client": "Opendoor",
+      "homepage": false,
       "title": "No Trick, All Treat",
       "goal": "Exposure",
       "blurb": "A Halloween film that made house hunting fun.",

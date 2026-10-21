@@ -797,7 +797,7 @@ for (const grid of $$('.post-grid[data-show]')) {
 // ---------------------------------------------------------------------------
 const REVEAL = [
   '.section__title', '.section .container > p', '.section .container > .lede', '.reel',
-  '.work-tile', '.step-cards li', '.team li', '.post-card', '.proof__title',
+  '.work-tile', '.feature-row', '.step-cards li', '.team li', '.post-card', '.proof__title',
   '.booking', '.map', '.portfolio-cat__title',
   '.cta h2', '.cta p', '.kicker', '.service-list li', '.cases__tab', '.charter li', '.guide__item', '.audience-cards li', '.industry-cards li', '.sitrep-steps li', '.promise-list li', '.process li', '.stats li', '.lessons li', '.roster li', '.campfire', '.intel-card', '.intel__intro > *',
 ].join(',');
@@ -1199,7 +1199,8 @@ $$('[data-carousel]').forEach((box) => {
   wrap.className = 'process-wrap';
   list.replaceWith(wrap);
   wrap.append(bars, list, panel);
-  steps.forEach((li, i) => li.addEventListener('mouseenter', () => { if (matchMedia('(min-width: 801px)').matches && indicator) indicator.set(i); }));
+  // Laptops: hovering a step makes it the current one (bar, white icon and red number all follow the pointer)
+  steps.forEach((li, i) => li.addEventListener('mouseenter', () => { if (matchMedia('(min-width: 801px)').matches && indicator) show(i); }));
   let indicator = null;
   const show = (i) => {
     current = (i + steps.length) % steps.length;
@@ -1298,3 +1299,24 @@ $$('[data-story]').forEach((box) => {
   track.addEventListener('scroll', () => { if (!frame) frame = requestAnimationFrame(() => { frame = 0; update(); }); }, { passive: true });
   update();
 });
+
+// Inline social icons (follow line on Work and elsewhere): if the row wraps under the paragraph text, mark it so CSS
+// can drop it onto its own flush-left row with a little air, without touching the paragraph's line spacing.
+(() => {
+  const rows = [...document.querySelectorAll('.inline-social-row')];
+  if (!rows.length) return;
+  const check = () => rows.forEach((row) => {
+    row.classList.remove('is-wrapped');
+    const lead = row.previousSibling && document.createRange();
+    if (!lead) return;
+    lead.selectNodeContents(row.previousSibling);
+    const lines = lead.getClientRects();
+    const last = lines[lines.length - 1];
+    if (last && row.getBoundingClientRect().top >= last.bottom - 2) row.classList.add('is-wrapped');
+  });
+  let frame = 0;
+  const queue = () => { if (!frame) frame = requestAnimationFrame(() => { frame = 0; check(); }); };
+  check();
+  if (document.fonts) document.fonts.ready.then(check);
+  addEventListener('resize', queue);
+})();
