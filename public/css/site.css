@@ -2340,8 +2340,11 @@ body:not(.page-sections) .kicker::before { content: none; }
    kinds of hard, list what we do, show the work, say what we believe, ask for contact. All black, no hover
    needed, the gap between sections is the homepage's --home-gap. Phones: every grid is one column.
    ===================================================================== */
-.hero--declare { min-height: min(78vh, 720px); align-items: center; }
-.hero--declare .hero__content { padding-top: clamp(72px, 10vw, 128px); padding-bottom: clamp(56px, 8vw, 96px); }
+/* Oct 23: the hero sizes to its words, so the proof line shows on the first screen (Ari: no empty band under the
+   headline). Tony's reel goes under the subhead when it's delivered. */
+.hero--declare { min-height: 0; align-items: flex-end; }
+.hero--declare .hero__content { padding-top: clamp(120px, 18vh, 220px); padding-bottom: clamp(36px, 5vw, 56px); }
+.page-declare main > .hero--declare + .section { padding-top: 0; }
 .hero--declare h1 { font-size: clamp(2.7rem, 6.6vw, 5.2rem); line-height: .95; margin: 0 0 24px; max-width: 13ch; }
 .declare__sub { font-size: clamp(1.08rem, 1.7vw, 1.35rem); line-height: 1.5; color: var(--on-dark-text); margin: 0; }
 .proof, .lead-line { font-size: clamp(1.02rem, 1.4vw, 1.15rem); line-height: 1.6; color: var(--on-dark-text); margin: 0; }
@@ -2369,7 +2372,7 @@ body:not(.page-sections) .kicker::before { content: none; }
 .page-declare .lead-form--dark textarea { min-height: 140px; }
 @media (max-width: 700px) {
   .brief-grid, .stills { grid-template-columns: 1fr; }
-  .hero--declare { min-height: min(70vh, 640px); }
+  .hero--declare .hero__content { padding-top: clamp(104px, 16vh, 160px); }
 }
 @media (max-width: 800px) {
   .page-declare .contact-grid { grid-template-columns: 1fr; }

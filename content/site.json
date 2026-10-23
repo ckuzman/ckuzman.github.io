@@ -44,22 +44,9 @@
   "itcaVimeoId": "",
   "calendlyUrl": "https://calendly.com/christhrillwave/30-minute-meeting-clone",
   "nav": [
-    {"label": "About", "href": "/about"},
-    {"label": "Services", "children": [
-      {"label": "Our services", "href": "/services"},
-      {"label": "Our clients", "href": "/clients"},
-      {"label": "Our fields", "href": "/fields"}
-    ]},
-    {"label": "Work", "children": [
-      {"label": "Portfolio", "href": "/work"},
-      {"label": "Case studies", "href": "/case-studies"}
-    ]},
-    {"label": "Process", "children": [
-      {"label": "Our process", "href": "/process"},
-      {"label": "SITREP", "href": "/sitrep"}
-    ]},
-    {"label": "Intel", "href": "/blog"},
-    {"label": "Contact", "href": "/contact"}
+    { "label": "Work", "href": "/work" },
+    { "label": "About", "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
   ],
   "social": [
     {
