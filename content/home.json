@@ -24,6 +24,99 @@
   ],
   "audiences": [
     {
+      "name": "Nonprofits & public service",
+      "short": "Nonprofits",
+      "text": "We make films for nonprofits, NGOs, tribal councils and public agencies that move people to give, join and act.",
+      "still": "mEfrDfPj_TA:3",
+      "example": { "youtube": "mEfrDfPj_TA", "client": "UMOM New Day Centers", "title": "Kelly's Story" },
+      "title": "Films that move people to act.",
+      "seoTitle": "Nonprofit & Public Service Video Production",
+      "headline": "Nonprofit and public service films",
+      "faq": [
+        {
+          "q": "Can a nonprofit afford you?",
+          "a": "Projects start around $1,000, and we scope to the budget you have. Tell us the goal and the number, and we'll tell you straight what it buys."
+        },
+        {
+          "q": "Do you work with public agencies and tribal councils?",
+          "a": "Yes. For the Inter Tribal Council of Arizona we've made WIC nutrition films, vaccine education for its Tribal Epidemiology Center and Your Voice, Your Power, a 10-part docuseries on tribal voting."
+        }
+      ],
+      "work": [
+        { "youtube": "mEfrDfPj_TA", "client": "UMOM New Day Centers", "title": "Kelly's Story" },
+        { "youtube": "uPjYjRDq_qU", "client": "New Pathways For Youth", "title": "It Begins With Me" },
+        "tkqnm36YAfM",
+        {
+          "youtube": "Gh67yEMyOCs",
+          "client": "ITCA Native Vote",
+          "title": "Your Voice, Your Power",
+          "frame": 3,
+          "zoom": true
+        }
+      ],
+      "related": [
+        "Government & Public Affairs",
+        "Education & research"
+      ],
+      "about": "The people on camera trust you with their stories, so we treat them with the same care you would. Here's Kelly's Story, which we made with UMOM New Day Centers:",
+      "heading": "Dignity comes first.",
+      "intro": "A film for a nonprofit or a public agency has one job: to get someone to care enough to act. That might be a donor at a gala, a family deciding whether to enroll, or a lawmaker hearing why water rights matter to a community. We've told these stories for UMOM New Day Centers, New Pathways For Youth, Paradise Valley Mountain Preserve Trust and the Inter Tribal Council of Arizona.",
+      "approach": "People share their stories on their own terms, so we plan interviews around their comfort, not our shot list. Budgets have to stretch, too. One shoot should feed the gala, the donor email, the grant report, the briefing with lawmakers and a month of social posts, so we plan those cuts before we roll. And because a moving story isn't enough on its own, every film ends with a clear next step: give, volunteer, sign up, vote or show up. Here are a few of the stories we've told:",
+      "points": [
+        "We work with nonprofits, NGOs, foundations, tribal councils and public agencies.",
+        "We do the research first, then put the story first and protect the people on camera.",
+        "We make fundraising films, impact stories, PSAs, public education films and docuseries.",
+        "The films play at galas, in donor emails and grant reports, in front of lawmakers and across social."
+      ],
+      "focus": "x74"
+    },
+    {
+      "name": "Schools & institutions",
+      "short": "Schools",
+      "text": "We make films for universities, schools, museums, art spaces and research centers that help people learn, visit and believe in the work.",
+      "still": "n26-IyiVLsw",
+      "example": "n26-IyiVLsw",
+      "title": "Big ideas, made clear.",
+      "seoTitle": "Video Production for Schools & Institutions",
+      "headline": "Films for schools and institutions",
+      "faq": [
+        {
+          "q": "What do schools and institutions use films for?",
+          "a": "Mostly to explain the work, recruit students and staff, bring in donors and grants, and invite people to visit. One shoot can cover all of them if we plan the cuts up front."
+        },
+        {
+          "q": "Can you explain complex research on camera?",
+          "a": "Yes. We read up first, then let the people who do the work explain it in their own words, and we add visuals where words aren't enough. We've done it for Nektar's cancer research and for the Inter Tribal Council of Arizona's vaccine education."
+        }
+      ],
+      "work": [
+        "n26-IyiVLsw",
+        {
+          "vimeo": "1175739079",
+          "client": "ITCA TEC",
+          "title": "Case Study Using SITREP",
+          "thumbnail": "https://i.vimeocdn.com/video/2206610840-ab9c7452ada6128dda809c82750fb931c920b1da79ebba045b626a540217cd86-d_1280x720"
+        },
+        "8BruwRwC9Tg",
+        { "youtube": "uPjYjRDq_qU", "client": "New Pathways For Youth", "title": "It Begins With Me" }
+      ],
+      "related": [
+        "Education & research",
+        "Arts & culture",
+        "Medical"
+      ],
+      "about": "Institutions have big ideas and short attention spans to win over, so we look for the person who makes the idea click. Here's Immerse Yourself, which we made for Wonderspaces:",
+      "heading": "Teach it, then show it.",
+      "intro": "Universities, schools, museums, art spaces and research centers all have the same problem: important work that is hard to explain in a minute. We help them show it instead. We've filmed immersive art at Wonderspaces, vaccine education with the Inter Tribal Council of Arizona's Tribal Epidemiology Center and patient stories for Nektar's research.",
+      "approach": "We do our homework before we film, so we can ask the questions that get experts talking like people. We keep it honest and plain, and we let the work speak for itself. Most institutions need more than one film from a shoot, so we plan the recruiting cut, the donor cut and the social cuts before we roll. Here are a few films that fit the bill:",
+      "points": [
+        "We work with universities, schools, museums, art spaces, libraries, foundations and research centers.",
+        "We research the subject first, then let teachers, researchers and artists explain it in their own words.",
+        "We make explainers, recruiting films, donor and grant films, exhibition films and short documentaries.",
+        "The films play in classrooms and lobbies, at galas, in grant reports and on websites and social."
+      ]
+    },
+    {
       "name": "Film",
       "text": "We make documentaries, docuseries and shorts with filmmakers and studios, from the first treatment to the festival cut.",
       "still": "oXOPxKmigKA",
@@ -129,99 +222,6 @@
         "We send field crews, report the story, shoot interviews and turn edits around fast, delivered to your specs.",
         "We make series, segments, promos, sizzles and short documentaries.",
         "The work runs on broadcast and public media, on publisher and news sites and across their channels."
-      ]
-    },
-    {
-      "name": "Nonprofits & public service",
-      "short": "Nonprofits",
-      "text": "We make films for nonprofits, NGOs, tribal councils and public agencies that move people to give, join and act.",
-      "still": "mEfrDfPj_TA:3",
-      "example": { "youtube": "mEfrDfPj_TA", "client": "UMOM New Day Centers", "title": "Kelly's Story" },
-      "title": "Films that move people to act.",
-      "seoTitle": "Nonprofit & Public Service Video Production",
-      "headline": "Nonprofit and public service films",
-      "faq": [
-        {
-          "q": "Can a nonprofit afford you?",
-          "a": "Projects start around $1,000, and we scope to the budget you have. Tell us the goal and the number, and we'll tell you straight what it buys."
-        },
-        {
-          "q": "Do you work with public agencies and tribal councils?",
-          "a": "Yes. For the Inter Tribal Council of Arizona we've made WIC nutrition films, vaccine education for its Tribal Epidemiology Center and Your Voice, Your Power, a 10-part docuseries on tribal voting."
-        }
-      ],
-      "work": [
-        { "youtube": "mEfrDfPj_TA", "client": "UMOM New Day Centers", "title": "Kelly's Story" },
-        { "youtube": "uPjYjRDq_qU", "client": "New Pathways For Youth", "title": "It Begins With Me" },
-        "tkqnm36YAfM",
-        {
-          "youtube": "Gh67yEMyOCs",
-          "client": "ITCA Native Vote",
-          "title": "Your Voice, Your Power",
-          "frame": 3,
-          "zoom": true
-        }
-      ],
-      "related": [
-        "Government & Public Affairs",
-        "Education & research"
-      ],
-      "about": "The people on camera trust you with their stories, so we treat them with the same care you would. Here's Kelly's Story, which we made with UMOM New Day Centers:",
-      "heading": "Dignity comes first.",
-      "intro": "A film for a nonprofit or a public agency has one job: to get someone to care enough to act. That might be a donor at a gala, a family deciding whether to enroll, or a lawmaker hearing why water rights matter to a community. We've told these stories for UMOM New Day Centers, New Pathways For Youth, Paradise Valley Mountain Preserve Trust and the Inter Tribal Council of Arizona.",
-      "approach": "People share their stories on their own terms, so we plan interviews around their comfort, not our shot list. Budgets have to stretch, too. One shoot should feed the gala, the donor email, the grant report, the briefing with lawmakers and a month of social posts, so we plan those cuts before we roll. And because a moving story isn't enough on its own, every film ends with a clear next step: give, volunteer, sign up, vote or show up. Here are a few of the stories we've told:",
-      "points": [
-        "We work with nonprofits, NGOs, foundations, tribal councils and public agencies.",
-        "We do the research first, then put the story first and protect the people on camera.",
-        "We make fundraising films, impact stories, PSAs, public education films and docuseries.",
-        "The films play at galas, in donor emails and grant reports, in front of lawmakers and across social."
-      ],
-      "focus": "x74"
-    },
-    {
-      "name": "Schools & institutions",
-      "short": "Schools",
-      "text": "We make films for universities, schools, museums, art spaces and research centers that help people learn, visit and believe in the work.",
-      "still": "n26-IyiVLsw",
-      "example": "n26-IyiVLsw",
-      "title": "Big ideas, made clear.",
-      "seoTitle": "Video Production for Schools & Institutions",
-      "headline": "Films for schools and institutions",
-      "faq": [
-        {
-          "q": "What do schools and institutions use films for?",
-          "a": "Mostly to explain the work, recruit students and staff, bring in donors and grants, and invite people to visit. One shoot can cover all of them if we plan the cuts up front."
-        },
-        {
-          "q": "Can you explain complex research on camera?",
-          "a": "Yes. We read up first, then let the people who do the work explain it in their own words, and we add visuals where words aren't enough. We've done it for Nektar's cancer research and for the Inter Tribal Council of Arizona's vaccine education."
-        }
-      ],
-      "work": [
-        "n26-IyiVLsw",
-        {
-          "vimeo": "1175739079",
-          "client": "ITCA TEC",
-          "title": "Case Study Using SITREP",
-          "thumbnail": "https://i.vimeocdn.com/video/2206610840-ab9c7452ada6128dda809c82750fb931c920b1da79ebba045b626a540217cd86-d_1280x720"
-        },
-        "8BruwRwC9Tg",
-        { "youtube": "uPjYjRDq_qU", "client": "New Pathways For Youth", "title": "It Begins With Me" }
-      ],
-      "related": [
-        "Education & research",
-        "Arts & culture",
-        "Medical"
-      ],
-      "about": "Institutions have big ideas and short attention spans to win over, so we look for the person who makes the idea click. Here's Immerse Yourself, which we made for Wonderspaces:",
-      "heading": "Teach it, then show it.",
-      "intro": "Universities, schools, museums, art spaces and research centers all have the same problem: important work that is hard to explain in a minute. We help them show it instead. We've filmed immersive art at Wonderspaces, vaccine education with the Inter Tribal Council of Arizona's Tribal Epidemiology Center and patient stories for Nektar's research.",
-      "approach": "We do our homework before we film, so we can ask the questions that get experts talking like people. We keep it honest and plain, and we let the work speak for itself. Most institutions need more than one film from a shoot, so we plan the recruiting cut, the donor cut and the social cuts before we roll. Here are a few films that fit the bill:",
-      "points": [
-        "We work with universities, schools, museums, art spaces, libraries, foundations and research centers.",
-        "We research the subject first, then let teachers, researchers and artists explain it in their own words.",
-        "We make explainers, recruiting films, donor and grant films, exhibition films and short documentaries.",
-        "The films play in classrooms and lobbies, at galas, in grant reports and on websites and social."
       ]
     },
     {
@@ -1044,6 +1044,53 @@
       ]
     },
     {
+      "client": "ITCA TEC",
+      "title": "Vaccine education",
+      "listTitle": "Vaccine Education",
+      "goal": "Awareness",
+      "focusPhone": "70-30",
+      "blurb": "Plain answers about vaccines, from trusted voices.",
+      "text": "Tribal health leaders explain vaccines to their own communities, in their own words.",
+      "image": "https://i.vimeocdn.com/video/2206610840-ab9c7452ada6128dda809c82750fb931c920b1da79ebba045b626a540217cd86-d_1280x720",
+      "link": "/case-studies/vaccine-education",
+      "story": "ITCA's Tribal Epidemiology Center needed vaccine education for communities with good reason to distrust government health programs. Standard messaging had backfired, so our research pointed us to tribal health leaders and community members telling it in their own words. This breakdown walks through every choice we made.",
+      "video": {
+        "vimeo": "1175739079",
+        "thumbnail": "https://i.vimeocdn.com/video/2206610840-ab9c7452ada6128dda809c82750fb931c920b1da79ebba045b626a540217cd86-d_1280x720",
+        "title": "Case Study Using SITREP"
+      },
+      "stats": [
+        { "value": "1.4x", "label": "Flu hospitalization rate for American Indian and Alaska Native adults compared with White adults, 2009 to 2023", "source": "CDC" },
+        { "value": "35%", "label": "American Indian and Alaska Native adults who got a flu shot in the 2023 to 2024 season", "source": "CDC" },
+        { "value": "21", "label": "Tribal nations in the Inter Tribal Council of Arizona", "source": "ITCA" }
+      ],
+      "lede": "Tribal health leaders explain vaccines to their own communities, in their own words.",
+      "industry": "Education & research",
+      "customer": "Nonprofits & public service",
+      "services": [
+        "Story",
+        "Production",
+        "Editing"
+      ],
+      "sitrep": [
+        "ITCA's Tribal Epidemiology Center needed vaccine education for communities with good reason to doubt government health programs.",
+        "Our research showed that standard messaging had backfired, and that people needed to hear from their own leaders rather than outside authorities.",
+        "So we filmed tribal health directors and community members on location, speaking in their own words."
+      ],
+      "work": [
+        { "youtube": "3hlumlH16HI", "client": "ITCA TEC", "title": "Recommended Respiratory Vaccinations" },
+        { "youtube": "zs1_1xC4My8", "client": "ITCA TEC", "title": "Talk to Your Healthcare Provider" },
+        { "youtube": "_OCpwTAXRNk", "client": "ITCA TEC", "title": "Contact Your Healthcare Provider" },
+        { "youtube": "cmaXGZGLShU", "client": "ITCA TEC", "title": "Speak with Your Healthcare Provider" },
+        {
+          "vimeo": "1175739079",
+          "client": "ITCA TEC",
+          "title": "Case Study Using SITREP",
+          "thumbnail": "https://i.vimeocdn.com/video/2206610840-ab9c7452ada6128dda809c82750fb931c920b1da79ebba045b626a540217cd86-d_1280x720"
+        }
+      ]
+    },
+    {
       "client": "Relentless Beats",
       "title": "Decadence Arizona",
       "goal": "Exposure",
@@ -1127,53 +1174,6 @@
       ],
       "work": [
         "Qd40htwEmJM"
-      ]
-    },
-    {
-      "client": "ITCA TEC",
-      "title": "Vaccine education",
-      "listTitle": "Vaccine Education",
-      "goal": "Awareness",
-      "focusPhone": "70-30",
-      "blurb": "Plain answers about vaccines, from trusted voices.",
-      "text": "Tribal health leaders explain vaccines to their own communities, in their own words.",
-      "image": "https://i.vimeocdn.com/video/2206610840-ab9c7452ada6128dda809c82750fb931c920b1da79ebba045b626a540217cd86-d_1280x720",
-      "link": "/case-studies/vaccine-education",
-      "story": "ITCA's Tribal Epidemiology Center needed vaccine education for communities with good reason to distrust government health programs. Standard messaging had backfired, so our research pointed us to tribal health leaders and community members telling it in their own words. This breakdown walks through every choice we made.",
-      "video": {
-        "vimeo": "1175739079",
-        "thumbnail": "https://i.vimeocdn.com/video/2206610840-ab9c7452ada6128dda809c82750fb931c920b1da79ebba045b626a540217cd86-d_1280x720",
-        "title": "Case Study Using SITREP"
-      },
-      "stats": [
-        { "value": "1.4x", "label": "Flu hospitalization rate for American Indian and Alaska Native adults compared with White adults, 2009 to 2023", "source": "CDC" },
-        { "value": "35%", "label": "American Indian and Alaska Native adults who got a flu shot in the 2023 to 2024 season", "source": "CDC" },
-        { "value": "21", "label": "Tribal nations in the Inter Tribal Council of Arizona", "source": "ITCA" }
-      ],
-      "lede": "Tribal health leaders explain vaccines to their own communities, in their own words.",
-      "industry": "Education & research",
-      "customer": "Nonprofits & public service",
-      "services": [
-        "Story",
-        "Production",
-        "Editing"
-      ],
-      "sitrep": [
-        "ITCA's Tribal Epidemiology Center needed vaccine education for communities with good reason to doubt government health programs.",
-        "Our research showed that standard messaging had backfired, and that people needed to hear from their own leaders rather than outside authorities.",
-        "So we filmed tribal health directors and community members on location, speaking in their own words."
-      ],
-      "work": [
-        { "youtube": "3hlumlH16HI", "client": "ITCA TEC", "title": "Recommended Respiratory Vaccinations" },
-        { "youtube": "zs1_1xC4My8", "client": "ITCA TEC", "title": "Talk to Your Healthcare Provider" },
-        { "youtube": "_OCpwTAXRNk", "client": "ITCA TEC", "title": "Contact Your Healthcare Provider" },
-        { "youtube": "cmaXGZGLShU", "client": "ITCA TEC", "title": "Speak with Your Healthcare Provider" },
-        {
-          "vimeo": "1175739079",
-          "client": "ITCA TEC",
-          "title": "Case Study Using SITREP",
-          "thumbnail": "https://i.vimeocdn.com/video/2206610840-ab9c7452ada6128dda809c82750fb931c920b1da79ebba045b626a540217cd86-d_1280x720"
-        }
       ]
     },
     {
